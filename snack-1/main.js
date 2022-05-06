@@ -1,5 +1,18 @@
 // Chiedere all’utente di inserire una parola
 // Creare una funzione per capire se la parola inserita è palindroma
 
-// chiedo all'utente di inserire una parola
-const word = prompt("inserisci una parola")
+function isPalin(str) {  
+  
+    // raccolgo la lunghezza della parola  
+    const length = userWord.length;  
+  
+    // divido la parola in 2
+    for (let i = 0; i < length / 2; i++) {  
+   
+        if (userWord[i] !== userWord[length - 1 - i]) {  
+            alert("non è palindroma");  
+        }else{
+            alert("è palindroma")
+        }  
+    }   
+}  
