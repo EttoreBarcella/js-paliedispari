@@ -16,3 +16,8 @@ function isPalin(str) {
         }  
     }   
 }  
+  
+// inserisco la funzione e il prompt all'interno del risultato 
+const userWord = prompt("inserisci una parola");  
+
+const result = isPalin(userWord);  
