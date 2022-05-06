@@ -1,7 +1,7 @@
 // Chiedere all’utente di inserire una parola
 // Creare una funzione per capire se la parola inserita è palindroma
 
-function isPalin(str) {  
+function isPalin() {  
   
     // raccolgo la lunghezza della parola  
     const length = userWord.length;  
